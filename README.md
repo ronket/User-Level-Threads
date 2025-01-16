@@ -11,6 +11,11 @@ This project implements a user-level threads library (`uthreads`), developed as 
 - Thread states: `RUNNING`, `READY`, `BLOCKED`, and `SLEEPING`.  
 - Uses a queue for ready threads, efficient ID tracking, and context switches based on `sigsetjmp/siglongjmp`.
 
+## Thread State Diagram
+
+<p align="center">
+  <img src="images/ThreadStateDiagram.png" width="85%" alt="Thread State Diagram"/>
+</p>
 ---
 
 ## Key Functions
@@ -38,7 +43,7 @@ Defined in [uthreads.h](uthreads.h) :
 
 ## Usage:
 
-1. Compile using the provided Makefile:
+- in order to Compile, use the provided Makefile:
    ```bash
    make
    ```  
