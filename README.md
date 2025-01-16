@@ -8,9 +8,8 @@ This project implements a user-level threads library (`uthreads`), developed as 
 ## Overview
 
 - Preemptive scheduling with configurable time quantums (via `SIGVTALRM`).  
-- Thread states: `RUNNING`, `READY`, `BLOCKED`, and `SLEEPING`.  
+- Thread states : `RUNNING`, `READY`, `BLOCKED`, and `SLEEPING`.  
 - Uses a queue for ready threads, efficient ID tracking, and context switches based on `sigsetjmp/siglongjmp`.
-
 
 <p align="center">
   <img src="images/ThreadStateDiagram.png" width="85%" alt="Thread State Diagram"/>
