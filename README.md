@@ -41,7 +41,7 @@ Defined in [uthreads.h](uthreads.h) :
 
 ## Usage:
 
-- in order to Compile, use the provided Makefile:
+- in order to Compile, use the provided Makefile and run:
    ```bash
    make
    ```  
