@@ -36,14 +36,9 @@ Defined in [uthreads.h](uthreads.h) :
 
 ---
 
-## Build and Usage
+## Usage:
 
 1. Compile using the provided Makefile:
    ```bash
    make
    ```  
-2. Include the library in your code:
-   ```c
-   #include "uthreads.h"
-   ```
-3. Initialize and use the threads library as needed.
